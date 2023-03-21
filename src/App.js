@@ -6,15 +6,13 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <h1 className="text-center text-3xl font-bold">Firebase</h1>
-        <Routes>
-          <Route path="/" element={<Signin />} />
-          <Route path="/" element={<Signup />} />
-          <Route path="/" element={<Account />} />
-        </Routes>
-      </div>
+    <div>
+      <h1 className="text-center text-3xl font-bold">Firebase</h1>
+      <Routes>
+        <Route path="/" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/account" element={<Account />} />
+      </Routes>
     </div>
   );
 }
