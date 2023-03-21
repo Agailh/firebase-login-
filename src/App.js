@@ -1,8 +1,8 @@
 import React from "react";
-import Signup from "./Components/Signup";
-import Signin from "./Components/Signin";
-import Account from "./Components/Account";
 import { Route, Routes } from "react-router-dom";
+import Account from "./Components/Account";
+import Signin from "./Components/Signin";
+import Signup from "./Components/Signup";
 
 function App() {
   return (
