@@ -5,8 +5,9 @@ import { UserAuth } from "../context/AuthContext";
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const { createUser } = UserAuth();
+
   const [error, setError] = useState("");
+  const { createUser } = UserAuth();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
